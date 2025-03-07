@@ -8,6 +8,14 @@ namespace URL_Shortener
     {
         static void Main(string[] args)
         {
+            //
+            //Name    : Main(string[] args)
+            //Purpose : Main entry point of the program, takes user input for shortening or retrieving URLs.
+            //Re-use  : None
+            //Input Parameters : string[] args
+            // - command line arguments
+            //Output Type : None
+            //
             var urlService = new UrlService();
 
             while (true)
@@ -47,7 +55,7 @@ namespace URL_Shortener
                         Console.WriteLine("Invalid command.");
                         break;
                 }
-            }
-        }
-    }
+            } //end while loop
+        } //end Main
+    } //end class Program
 }
